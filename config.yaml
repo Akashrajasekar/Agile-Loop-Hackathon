@@ -1,8 +1,0 @@
-google_calendar:
-  api_key: "YOUR API KEY"
-  creds_path: 'configs.json'
-  token_path: 'token.json' 
-
-google_token: "YOUR GOOGLE TOKEN"
-# trello_key: "e0163c45ef216569c30b4ad902f9c524"
-# trello_token: "ATTA8f1f6571f1c10ab6049a8cebfade473c15a23c058b58b212487f2922adb3fb0a339CC427"
