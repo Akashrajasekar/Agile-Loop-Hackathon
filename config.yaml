@@ -1,8 +1,8 @@
 google_calendar:
-  api_key: AIzaSyA_E_vxlpiZR5P_fe_4XLL_ymnfdUl-SHo
+  api_key: "YOUR API KEY"
   creds_path: 'configs.json'
   token_path: 'token.json' 
 
-google_token: "ya29.a0AfB_byBW6OBtk4bTLtRV1-cK2hAP2Xg6QJeQrzstD9smG7pvbC82HxjgK403idOWAQ0DClgjho0VMTqZcEMClkkBWrj06DFw61sFLKeWYYx0KNMphlvIbsGetD7y-2RObghnGtkm4S14fp1UN44oinBgKUnxXb51vgtZFQaCgYKAbQSARISFQHGX2MiOyhHqgCd2GXPcUV1d72b2w0173"
+google_token: "YOUR GOOGLE TOKEN"
 # trello_key: "e0163c45ef216569c30b4ad902f9c524"
 # trello_token: "ATTA8f1f6571f1c10ab6049a8cebfade473c15a23c058b58b212487f2922adb3fb0a339CC427"
