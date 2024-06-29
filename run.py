@@ -23,7 +23,7 @@ def main():
         'host': 'localhost',
         'database': 'synapse-copilot',
         'user': 'root',
-        'password': '*Laya2003*',
+        'password': '*****',
     }
 
     # Connect to the MySQL server
