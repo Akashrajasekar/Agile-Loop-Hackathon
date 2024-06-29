@@ -1,0 +1,24 @@
+Example 1:
+User query: Create a new event titled "Project Kickoff" on 2024-07-05 at 9:00 AM.
+Plan step 1: Create a new event titled "Project Kickoff".
+API calling 1: POST /events with parameters {summary: "Project Kickoff", start: "2024-07-05T09:00:00", end: "2024-07-05T10:00:00", location: "123 Main St, Anytown, USA", description: "Kickoff meeting for project XYZ", timezone: "America/Los_Angeles", key: "AIzaSyA_E_vxlpiZR5P_fe_4XLL_ymnfdUl-SHo"}.
+API response: Event "Project Kickoff" created successfully on 2024-07-05 from 9:00 AM to 10:00 AM at 123 Main St, Anytown, USA.
+Thought: I have finished scheduling the event "Project Kickoff".
+Final Answer: I have scheduled a new event titled "Project Kickoff" on 2024-07-05 at 9:00 AM.
+
+Example 2:
+User query: Reschedule the meeting with John to 2024-07-10 at 2:00 PM.
+Plan step 1: Reschedule the meeting with John.
+API calling 1: PUT /events/{event_id} with parameters {summary: "Meeting with John", start: "2024-07-10T14:00:00", end: "2024-07-10T15:00:00", location: "456 Elm St, Somewhere, USA", description: "Discuss project updates", timezone: "America/Los_Angeles", key: "AIzaSyA_E_vxlpiZR5P_fe_4XLL_ymnfdUl-SHo"}.
+API response: Event "Meeting with John" updated successfully to 2024-07-10 from 2:00 PM to 3:00 PM at 456 Elm St, Somewhere, USA.
+Thought: I have finished rescheduling the meeting with John.
+Final Answer: I have updated the meeting with John to 2024-07-10 at 2:00 PM.
+
+Example 3:
+User query: Cancel the team lunch on 2024-07-15.
+Plan step 1: Cancel the team lunch.
+API calling 1: DELETE /events/{event_id} with parameters {key: "AIzaSyA_E_vxlpiZR5P_fe_4XLL_ymnfdUl-SHo"}.
+API response: Event "Team Lunch" on 2024-07-15 canceled successfully.
+Thought: I have finished canceling the team lunch.
+Final Answer: I have canceled the team lunch on 2024-07-15.
+
