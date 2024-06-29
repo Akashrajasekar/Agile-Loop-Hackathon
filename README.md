@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **Synapse Copilot**
 
 Welcome to the Synapse Copilot, your gateway to effortlessly integrating Large Language Models (LLMs) with a wide array of APIs! Follow this delightful guide to embark on your API scenario adventure. 🎉
@@ -290,3 +291,6 @@ Choosing the right tools and frameworks is crucial for the success of your proje
 This project is licensed under the [MIT License](LICENSE).
 
 Let's get coding! 💻
+=======
+# Molten_Core_HacktheLoop
+>>>>>>> ec554ee278151df20fc717918cb0e77828d4c00d
