@@ -21,17 +21,17 @@ def main():
     logger.setLevel(logging.INFO)
     api_spec, headers = None, None
 
-    # database connection details
-    db_config = {
-        'host': 'localhost',
-        'database': 'synapse-copilot',
-        'user': 'root',
-        'password': '2021A7PS0183U',
-    }
+    # # database connection details
+    # db_config = {
+    #     'host': 'localhost',
+    #     'database': 'synapse-copilot',
+    #     'user': 'root',
+    #     'password': '2021A7PS0183U',
+    # }
 
-    # Connect to the MySQL server
-    conn = mysql.connector.connect(**db_config)
-    cursor = conn.cursor()
+    # # Connect to the MySQL server
+    # conn = mysql.connector.connect(**db_config)
+    # cursor = conn.cursor()
 
     api_key = config["google_calendar"]["api_key"]
     creds_path = config["google_calendar"]["creds_path"]
