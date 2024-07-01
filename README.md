@@ -1,7 +1,24 @@
 ## Molten_Core_HacktheLoop
-Our main app is run_app.py
 
-Remember to add the following dependencies to properly run our app:
+Our main app is _**run_app.py**_
+
+# Remember to add the following dependencies to properly run our app:
 - A google cloud console project with valid API's and OAuth ClientID's which gives you a valid credentials (configs.json as referenced in our program)
-- The Gmail and Google Calendar API enabled
+- Add configs.json to the same directory => then run autherizor_for_tokens.py to generate a token.py file
+- The Gmail and Google Calendar API enabled with scopes set to the following: https://www.googleapis.com/auth/calendar and https://www.googleapis.com/auth/gmail.send
+
+# We leverage Llama 3 8B as our llm. Using Ollama:
+- Run Command Prompt as Administrator
+
+- Update pip and reinstall dependencies:
+```
+pip install --upgrade pip
+pip uninstall ollama
+pip install ollama
+```
+- Reinstall PyTorch (example, make sure to install the correct version for your needs)
+```
+pip install torch torchvision torchaudio
+```
+
  
