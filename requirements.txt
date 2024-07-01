@@ -16,6 +16,5 @@ google-auth-httplib2
 google-api-python-client
 langchain
 langchain_community
-googleapiclient
 requests
 mysql-connector-python
