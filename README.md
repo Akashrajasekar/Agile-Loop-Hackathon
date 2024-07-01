@@ -2,7 +2,7 @@
 
 - Our main app is _**run_app.py**_
 
-- [Our app url](https://moltencorehacktheloop-gzxkgpjrg7f7ibphws9pmx.streamlit.app/)
+- [Our app url hosted on Streamlit](https://moltencorehacktheloop-gzxkgpjrg7f7ibphws9pmx.streamlit.app/)
 
 # Remember to add the following dependencies to properly run our app:
 - A google cloud console project with valid API's and OAuth ClientID's which gives you a valid credentials (configs.json as referenced in our program)
