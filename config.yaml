@@ -14,7 +14,7 @@ YOUR_SCENARIO_SECRET_IF_ANY: "YOUR SCENARIO SECRET HERE"
 #spotipy_redirect_uri: "http://localhost/"
 
 google_calendar:
-  api_key: AIzaSyAObxxyRpkrAHGtSdOtKDOtD3NektwBWaA
+  api_key: YOUR KEY
   creds_path: 'configs.json'
   token_path: 'token.json' 
 
