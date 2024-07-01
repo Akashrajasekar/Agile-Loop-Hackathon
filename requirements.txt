@@ -11,10 +11,8 @@ torchvision
 torchaudio
 ollama
 google-auth
-google.oauth2.credentials
 google-auth-oauthlib
 google-auth-httplib2
-google.auth.transport.requests
 google-api-python-client
 langchain
 langchain_community
