@@ -1,5 +1,5 @@
 import streamlit as st
-from local_llama import email_generator
+from app_helper import *
 import base64
 import mimetypes
 import os
