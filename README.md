@@ -1,8 +1,14 @@
-## Molten_Core_HacktheLoop
+# 📆 Welcome to our app _EventifAI_ 📆
+by team Molten_Core 🌋
+### _Your Eventful future made easy_ 
+
+#### About our app:
+This app is your one-stop app for seamlessly planning out all your events. Schedule 🌍 on-site and 💻 online events on 📆 Google Calendar, and send out personalized invitation 📧 Emails to your invitees, all with a simple prompt to our AI 🦙
+---
 
 - Our main app is _**run_app.py**_
 
-- [Our app url hosted on Streamlit](https://moltencorehacktheloop-gzxkgpjrg7f7ibphws9pmx.streamlit.app/)
+- [Check out our app hosted on 👑Streamlit](https://moltencorehacktheloop-gzxkgpjrg7f7ibphws9pmx.streamlit.app/)
 
 # Remember to add the following dependencies to properly run our app:
 - A google cloud console project with valid API's and OAuth ClientID's which gives you a valid credentials (configs.json as referenced in our program)
