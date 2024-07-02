@@ -65,7 +65,8 @@ def create_google_calendar_event(service, event_details, use_google_meet):
     try:
         event = service.events().insert(calendarId='primary', body=event, sendUpdates='all', conferenceDataVersion=1 if use_google_meet else 0).execute()
         print(event)
-        # return event
+        return event
+        # return event 
         # print(f"Event created: {event.get('htmlLink')}")
         # if use_google_meet:
             # return event.get('hangoutLink')
