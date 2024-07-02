@@ -30,10 +30,8 @@ We make use of _Google API_ services to successfully help automate your event ma
 - Download and add `configs.json` to this project directory => then run `autherizor_for_tokens.py` to generate a `token.json` file
 
 - Add your API key in the `config.yaml` file
-
-```
-🎥 Check out [this video](https://youtu.be/B2E82UPUnOY) on how to create a project and get your keys and configs! _(credits: [NeuralNine](https://www.youtube.com/@NeuralNine))_
-```
+  
+🎥 Check out [this video](https://youtu.be/B2E82UPUnOY) on how to create a project and get your keys and configs! _(credits: [NeuralNine](https://www.youtube.com/@NeuralNine))_ 
 
 
 # We leverage Llama 3 8B as our llm 🦙. 
