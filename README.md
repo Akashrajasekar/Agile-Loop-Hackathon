@@ -50,5 +50,10 @@ pip install torch torchvision torchaudio
 ```
 With all the above installed, clone this repo and `streamlit run run_app.py`!
 
+```
+Post note:
+Since we host Llama locally, and we utilize Google API's, there is some delay in the responses.
+But a couple of patient retries should do the job 😊
+```
 _**Say goodbye to tedious scheduling, and say hello to an eventful future! 🦙🎉**_
  
