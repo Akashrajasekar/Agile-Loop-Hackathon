@@ -14,7 +14,9 @@ This is your one-stop app for seamlessly planning out all your events. Schedule 
 
 - [Check out our app hosted on 👑Streamlit](https://moltencorehacktheloop-gzxkgpjrg7f7ibphws9pmx.streamlit.app/)
 
-# Remember to add the following dependencies to properly run our app:
+---
+
+# 
 - A google cloud console project with valid API's and OAuth ClientID's which gives you a valid credentials (configs.json as referenced in our program)
 - Add configs.json to the same directory => then run autherizor_for_tokens.py to generate a token.py file
 - The Gmail and Google Calendar API enabled with scopes set to the following: https://www.googleapis.com/auth/calendar and https://www.googleapis.com/auth/gmail.send
