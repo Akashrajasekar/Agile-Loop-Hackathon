@@ -29,13 +29,16 @@ We make use of _Google API_ services to successfully help automate your event ma
   
 - Download and add `configs.json` to this project directory => then run `autherizor_for_tokens.py` to generate a `token.json` file
 
+- Add your API key in the `config.yaml` file
 
 ```
 🎥 Check out [this video](https://youtu.be/B2E82UPUnOY) on how to create a project and get your keys and configs! _(credits: [NeuralNine](https://www.youtube.com/@NeuralNine))_
 ```
 
 
-# We leverage Llama 3 8B as our llm 🦙. To run it using Ollama:
+# We leverage Llama 3 8B as our llm 🦙. 
+
+To run it using Ollama:
 - Run Command Prompt as Administrator
 
 - Update pip and install these dependencies:
@@ -47,7 +50,7 @@ pip install ollama
 ```
 pip install torch torchvision torchaudio
 ```
-Check out our [url](https://moltencorehacktheloop-gzxkgpjrg7f7ibphws9pmx.streamlit.app/) or clone this repo and `streamlit run run_app.py`!
+With all the above installed, clone this repo and `streamlit run run_app.py`!
 
 _**Say goodbye to tedious scheduling, and say hello to an eventful future! 🦙🎉**_
  
