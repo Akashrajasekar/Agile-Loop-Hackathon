@@ -34,7 +34,7 @@ We make use of _Google API_ services to successfully help automate your event ma
 🎥 Check out [this video](https://youtu.be/B2E82UPUnOY) on how to create a project and get your keys and configs! _(credits: [NeuralNine](https://www.youtube.com/@NeuralNine))_ 
 
 
-# We leverage Llama 3 8B as our llm 🦙 
+# We leverage Llama 3 8B as our llm 🦙 .
 
 To run it using Ollama:
 - Run Command Prompt as Administrator
