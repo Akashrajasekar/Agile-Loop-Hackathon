@@ -6,7 +6,8 @@ _**Your Eventful future made easy**_
 
 # About our app:
 
-This is your one-stop app for seamlessly planning out all your events. Schedule 🌍 on-site and 💻 online events on 📆 Google Calendar, and send out personalized Invite 📧 Emails to your invitees, all with a simple prompt to our AI 🦙
+This is your one-stop app for seamlessly planning out all your events. 
+Schedule 🌍 on-site and 💻 online events on 📆 Google Calendar, and send out personalized Invite 📧 Emails to your invitees, all with a simple prompt to our AI 🦙
 
 ---
 
