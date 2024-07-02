@@ -1,9 +1,13 @@
 # 📆 Welcome to our app _EventifAI_ 📆
 by team Molten_Core 🌋
-### _Your Eventful future made easy_ 
 
-#### About our app:
-This app is your one-stop app for seamlessly planning out all your events. Schedule 🌍 on-site and 💻 online events on 📆 Google Calendar, and send out personalized invitation 📧 Emails to your invitees, all with a simple prompt to our AI 🦙
+_**Your Eventful future made easy**_
+---
+
+# About our app:
+
+This is your one-stop app for seamlessly planning out all your events. Schedule 🌍 on-site and 💻 online events on 📆 Google Calendar, and send out personalized Invite 📧 Emails to your invitees, all with a simple prompt to our AI 🦙
+
 ---
 
 - Our main app is _**run_app.py**_
