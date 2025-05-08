@@ -174,7 +174,7 @@ def main():
 
             if st.button("Next"):
                 st.session_state['event_type'] = event_type
-                st.experimental_rerun()
+                st.rerun()
 
         # 💻 Details for online events
         if st.session_state['event_type'] is not None:
@@ -260,10 +260,10 @@ def main():
                 
                 if st.button("Calendar Automation"):
                     st.session_state['page'] = 'Calendar'
-                    st.experimental_rerun()
+                    st.rerun()
                 if st.button("Email Invite Automation"):
                     st.session_state['page'] = 'Email_Invite'
-                    st.experimental_rerun()
+                    st.rerun()
                     
     if st.session_state['page'] == 'Calendar':             
             st.title("📆 Schedule Calendar Events:")
@@ -397,7 +397,7 @@ def main():
             st.session_state['page'] = 'Home'
             st.session_state['event_type'] = None
             st.session_state['file_uploaded'] = False
-            st.experimental_rerun()
+            st.rerun()
                
 
 if __name__ == "__main__":
