@@ -159,7 +159,7 @@ def main():
         st.image('logo.jpeg', use_column_width=True)
         if st.button("Get Started!"):
             st.session_state.page = "Event Planner"
-            st.experimental_rerun()
+            st.rerun()
                 
     #Plan Events
     if page == "Event Planner":
