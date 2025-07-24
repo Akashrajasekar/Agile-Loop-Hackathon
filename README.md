@@ -1,7 +1,7 @@
 # 📆 Welcome to our app _EventifAI_ 📆
 by team Molten Core 🌋
 
-_**Your Eventful future made easy**_
+_**Your Eventful future made easy.**_
 ---
 
 # About our app:
